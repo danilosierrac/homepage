@@ -13,10 +13,8 @@ html {
 
 h1 {
     margin: 0 0 35px;
-    font-family: apercubold,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: apercuregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
-    text-shadow:1px 1px 8px black;
 }
 
 h2,
@@ -25,8 +23,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    font-family: apercubold, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: apercuregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
 
 }
@@ -65,13 +62,12 @@ a:focus {
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
     font-family: apercuregular, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
 
 .navbar-brand {
-    font-weight: 700;
+    
 }
 
 .navbar-brand:focus {
@@ -134,7 +130,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(https://38.media.tumblr.com/73d64b3184b2b11ac1e01903dc9ba67a/tumblr_n3kzmcpWNW1tvz1dzo1_500.gif) no-repeat bottom center scroll;
+    background: url(https://github.com/danilosierrac/homepage/blob/gh-pages/media/background.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -153,7 +149,6 @@ a:focus {
 
 .intro-text {
     font-size: 18px;
-    text-shadow:1px 1px 8px black;
 }
 
 @media(min-width:767px) {
