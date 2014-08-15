@@ -58,7 +58,7 @@ var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
 var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
 var color2 = "#"+((r2 << 16) | (g2 << 8) | b2).toString(16);
 
- $('body).css({
+ $('body').css({
    background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
     background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
   
