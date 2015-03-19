@@ -34,11 +34,11 @@ p {
     margin: 0 0 20px;
     font-size: 18px;
     line-height: 1.5;
-    text-align: left;
+    text-align: center;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 @media(min-width:767px) {
@@ -171,7 +171,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 40px;
     }
 
     .intro .intro-body .intro-text {
