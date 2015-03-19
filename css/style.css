@@ -144,7 +144,6 @@ a:focus {
     text-align: center;
     color: #000;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-/*    background-color: #000;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -168,6 +167,10 @@ a:focus {
     .intro {
         height: 100%;
         padding: 0;
+           -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     }
 
     .intro .intro-body .brand-heading {
@@ -325,7 +328,7 @@ ul.banner-social-buttons {
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
-        margin-top: 10px;
+        margin-top: 0px;
     }
 }
 
